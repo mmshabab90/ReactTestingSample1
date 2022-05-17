@@ -72,7 +72,7 @@ test(`Clicked disabled button has gray backgtound and reverts to ${replaceCamelW
   expect(colorButton).toHaveStyle(`background-color: ${btnColor2}`);
 });
 
-// Testing functions
+// Testing functions with yest suites
 describe("spaces before camel-case capital letters", () => {
   test("Works for inner capital letters", () => {
     expect(replaceCamelWithSpaces("Red")).toBe("Red");
